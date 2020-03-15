@@ -1,6 +1,6 @@
 node('chris') {
    withEnv([
-      'DEVICE=jfltexx', 
+      'DEVICE=bacon', 
       'SYSTEM_PATH=/home/exodusnick/LineageOS/17.1_LineageOS',
       'FILENAME=lineage-17.1-$TARGET_DATE-UNOFFICIAL_microG_ready-$env.DEVICE.zip',
       'SEARCH_FILENAME=lineage-17.1-$TARGET_DATE-UNOFFICIAL-$env.DEVICE.zip',
