@@ -29,7 +29,7 @@ node('chris') {
             set +e
             cd $env.SYSTEM_PATH
             export PATH=~/bin:$PATH
-            make clean
+            #make clean
             source build/envsetup.sh
             breakfast $env.DEVICE
             brunch $env.DEVICE
